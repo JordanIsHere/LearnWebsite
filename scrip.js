@@ -31,3 +31,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+// Portfolio and Resume functions
+function showPortfolio() {
+  alert('Portfolio coming soon! 🚀\n\nIn the meantime, check out my GitHub or contact me for project details.');
+  console.log('Portfolio button clicked');
+}
+
+function downloadResume() {
+  alert('Resume download feature coming soon! 📄\n\nFor now, please contact me at js.jordan.s25@gmail.com for my resume.');
+  console.log('Resume download button clicked');
+}
