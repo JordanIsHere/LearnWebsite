@@ -3,14 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Website</title>
+  <title>Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Welcome to My Website 🎉</h1>
   <p>This is my first project in VS Code.</p>
-  <button onclick="sayHello()">Click Me</button>
 
-  <script src="script.js"></script>
+  <!-- Button to open popup -->
+  <button id="openBtn">Click Me</button>
+  
+  <!-- Popup Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span id="closeBtn">&times;</span>
+      <h2>🚀 Hello from Popup!</h2>
+      <p>This is a proper popup window inside your website.</p>
+    </div>
+  </div>
+
+  <script src="scrip.js"></script>
 </body>
 </html>
